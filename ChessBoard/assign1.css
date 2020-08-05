@@ -1,0 +1,77 @@
+html,body{
+   margin : 0px ;
+
+}
+
+.container{
+    display : flex ;
+    height : 12.5vh;
+   
+    
+
+}
+.sb1o{
+    background : rgb(255, 253, 253); 
+    flex :1 ;
+}
+.sb2o{
+    background : rgb(0, 0, 0);
+    flex : 1;
+}
+.sb3o{
+    background: rgb(255, 255, 255);
+    flex : 1;
+}
+.sb4o{
+    background: rgb(0, 0, 0);
+    flex : 1;
+}
+.sb5o{
+    background : rgb(255, 255, 255); 
+    flex :1 ;
+}
+.sb6o{
+    background : rgb(0, 0, 0);
+    flex : 1;
+}
+.sb7o{
+    background: rgb(255, 255, 255);
+    flex : 1;
+}
+.sb8o{
+    background: rgb(0, 0, 0);
+    flex : 1;
+}
+
+.sb1e{
+    background : rgb(0, 0, 0); 
+    flex :1 ;
+}
+.sb2e{
+    background : rgb(255, 255, 255);
+    flex : 1;
+}
+.sb3e{
+    background: rgb(0, 0, 0);
+    flex : 1;
+}
+.sb4e{
+    background: rgb(255, 255, 255);
+    flex : 1;
+}
+.sb5e{
+    background : rgb(0, 0, 0); 
+    flex :1 ;
+}
+.sb6e{
+    background : rgb(255, 255, 255);
+    flex : 1;
+}
+.sb7e{
+    background: rgb(0, 0, 0);
+    flex : 1;
+}
+.sb8e{
+    background: rgb(255, 255, 255);
+    flex : 1;
+}
