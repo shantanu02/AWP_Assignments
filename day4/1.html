@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="1.js"></script>
+    <style>
+        #cont {
+
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #btn_div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #counterid {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            width: 10vw;
+            height: 5vh;
+            background: rgb(219, 131, 131);
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cont">
+        <div id="counterid">0</div>
+        <div id="btn_div">
+            <div style="margin-right: 10px;">
+                <button id="btn_incre" class="btn" onclick="increment()">Increase</button>
+            </div>
+            <div>
+                <button id="btn_decre" class="btn" onclick="decrement()">decrease</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
