@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <style type="text/css">
+            #h1{
+                font-size:40px; 
+                color:darkblue;
+                font-weight:bold;
+                text-align:center;
+                position:relative;
+                margin:0 auto;
+            }
+            #page{
+                width:400px;
+                height:400px;
+                align-content: center;
+                position:relative;
+                margin:0 auto;
+                
+                
+            }
+            #result{
+                width:210px;
+                height:40px;
+            }
+            #clear{
+                width:40px;
+                height:40px;
+                margin-top:10px;
+            }
+            .key{
+                width:60px;
+                height:60px;
+                margin-top:10px;
+            }
+            
+            body{
+                background-color: darkgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="h1">CALCULATOR</p>
+        <div id="page">
+            <div>
+                <input type="text" colspan="5" id="result">
+                <input type="button" id="clear" value="c" onclick="clr()"/><br>
+                <input type="button" class="key" value="1" onclick="dis('1')">
+                <input type="button" class="key" value="2" onclick="dis('2')">
+                <input type="button" class="key" value="3" onclick="dis('3')">
+                <input type="button" class="key" value="/" onclick="dis('/')"><br>
+                 <input type="button" class="key" value="4" onclick="dis('4')">
+                <input type="button" class="key" value="5" onclick="dis('5')">
+                <input type="button" class="key" value="6" onclick="dis('6')">
+                <input type="button" class="key" value="*" onclick="dis('*')"><br>
+                 <input type="button" class="key" value="7" onclick="dis('7')">
+                <input type="button" class="key" value="8" onclick="dis('8')">
+                <input type="button" class="key" value="9" onclick="dis('9')">
+                <input type="button" class="key" value="-" onclick="dis('-')"><br>
+                 <input type="button" class="key" value="." onclick="dis('.')">
+                <input type="button" class="key" value="0" onclick="dis('0')">
+                <input type="button" class="key" value="=" onclick="solve()">
+                <input type="button" class="key" value="+" onclick="dis('+')"><br>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function dis(val){
+                document.getElementById("result").value = document.getElementById("result").value + val;
+            }
+            function solve()
+            {
+                var x = document.getElementById("result").value;
+                var y = eval(x);
+                document.getElementById("result").value=y;
+            }
+            function clr()
+            {
+                document.getElementById("result").value="";
+            }
+        </script>
+    </body>
+</html>
