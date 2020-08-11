@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+
+<body>
+    <div class="cont">
+        <div id="label"><img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Naruto_-_Shippuden_DVD_season_1_volume_1.jpg/220px-Naruto_-_Shippuden_DVD_season_1_volume_1.jpg"
+                alt=""></div>
+        <div id="txtarea">
+            <input type="text" placeholder="Type something..." id="myInput">
+        </div>
+        <div>
+            <button id="like" onclick="like()">Like</button>
+            <button id="comment" onclick="comment()">Comment</button>
+
+        </div>
+        <div id="commentBox">
+            <div id="referenceCommentId">
+                <div>Comment Here</div>
+                <button onClick="delCom(this)">Delete</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
